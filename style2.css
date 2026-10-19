@@ -1,0 +1,51 @@
+.nav-top{
+  padding-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-tab{
+border: 2px solid black;
+margin-right: 380px;
+}
+
+.sign-button{
+  margin-left: 220px;
+}
+
+.up-button{
+  color: black;
+  background-color: aquamarine;
+  cursor: pointer;
+  border: 3px solid aquamarine;
+  border-radius: 10px;
+  transition-delay: 1s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.85);
+}
+
+.up-button:hover{
+  background-color: rgb(112, 201, 231);
+  transition: 1s;
+}
+
+.in-button{
+  color: black;
+  background-color: aquamarine;
+  cursor: pointer;
+  border: 3px solid aquamarine;
+  border-radius: 10px;
+  transition-delay: 1s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.85); 
+}
+
+.in-button:hover{
+ background-color: rgb(112, 201, 231);
+  transition: 1s; 
+}
+
+.search-tab{
+  text-decoration-color: black;
+  border-radius: 4px;
+  color: black;
+}
