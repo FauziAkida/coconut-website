@@ -1,77 +1,40 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-   <meta charset="UTF-8">
-    
-    <!-- 1. STANDARD BROWSER / SEO METAS (name) -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore fresh coconut products, oils, and drinks.">
-    <meta name="author" content="Fauzi Akida">
-
-    <!-- 2. SEARCH ENGINE STRUCTURED DATA METAS (itemprop) -->
-    <meta itemprop="name" content="Coconut Product Website">
-    <meta itemprop="description" content="Explore fresh coconut products, oils, and drinks.">
-    <meta itemprop="image" content="https://fauziakida.com">
-
-    <!-- 3. SOCIAL MEDIA PREVIEW METAS (property / Open Graph) -->
-    <meta property="og:title" content="Coconut Product Website">
-    <meta property="og:description" content="Explore fresh coconut products, oils, and drinks.">
-    <meta property="og:image" content="https://fauziakida.com">
-    <meta property="og:url" content="https://fauziakida.com">
-    <meta property="og:type" content="website">
-
-
-<title>My coconut product</title> 
-<link rel="icon" type="image/x-icon" href="coconut.jpeg">
-<link rel="stylesheet" href="style1.css">
-
-<link rel="stylesheet" href="style2.css">
-
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore fresh coconut products, oils, and drinks.">
+  <meta name="author" content="Fauzi Akida">
+  <meta property="og:title" content="Coconut Product Website">
+  <meta property="og:description" content="Explore fresh coconut products, oils, and drinks.">
+  <meta property="og:image" content="Coconut-Palm.jpg">
+  <meta property="og:type" content="website">
+  <title>My Coconut Product</title>
+  <link rel="icon" type="image/x-icon" href="coconut.jpeg">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style2.css">
 </head>
-
 <body>
-  <div class="main-head">
-<h1 class="first-head">Pure Coconut Oil</h1>
-<p class=" second-head"><strong>Best for Your Skin</strong></p>
-<p class="third-head"><strong>Natural, Organic and Nourishing</strong></p>'
-  </div>
-
-<nav>
-
-  <div class="nav-top">
-<input class="search-tab" type="text" placeholder="Search Oil Product">
-<a href="#">Home</a>
-<a href="#">About Us</a>
-<a href="#">Products</a>
-<a href="#">Benefits</a>
-<a href="#">How to use</a>
-
-
-<div class="sign-button">
-<button class="up-button">
-<a href="signup.html" target="_blank">Sign up</a>
-</button>
-
-<button class="in-button">
-<a href="signin.html" target="_blank">Sign in</a>
-</button>
-
-
-
-
-</div>
-
-</div>
-
-</nav>
-
-<footer>
-  <p>All Right Reserved</p>
-</footer>
-
+  <header class="main-head">
+    <h1 class="first-head">Pure Coconut Oil</h1>
+    <p class="second-head"><strong>Best for Your Skin</strong></p>
+    <p class="third-head"><strong>Natural, Organic and Nourishing</strong></p>
+  </header>
+  <nav aria-label="Main navigation">
+    <div class="nav-top">
+      <input class="search-tab" type="search" placeholder="Search oil products" aria-label="Search oil products">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#products">Products</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#how-to-use">How to use</a>
+      <div class="sign-button">
+        <a class="up-button" href="signup.html">Sign up</a>
+        <a class="in-button" href="signin.html">Sign in</a>
+      </div>
+    </div>
+  </nav>
+  <main id="home"></main>
+  <footer><p>All rights reserved</p></footer>
 </body>
 </html>
