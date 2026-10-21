@@ -1,55 +1,16 @@
-
-  .first-head{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    text-decoration: wavy;
-      margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-    padding: 0;
-     color: rgb(255 255 255 );
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.85);
-  }
-  .second-head{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 10px;
-    text-decoration: wavy;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-    padding: 0;
-    color: rgb(255 255 255 );
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.85);
-  }
-
-  
-
-  .third-head{
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 10px;
-    text-decoration: wavy;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-    padding: 0;
-    color: rgb(255 255 255 );
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.85);
-  }
-
-  .main-head{
-    display:inline-block;
-    padding: 10px;
-    background-color: aquamarine;
-    border-block-end-width: auto;
-    width: 100%;
-    border:2px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
-    cursor: pointer;
-    background-image: url("Coconut-Palm.jpg");
-    background-size: cover;
-    background-position: center;
-
-  }
-
-
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; font-family: Arial, sans-serif; }
+.main-head {
+  width: 100%; min-height: 180px; padding: 28px 16px; border: 2px solid #183b2b;
+  border-radius: 4px; text-align: center;
+  background: url("Coconut-Palm.jpg") center / cover no-repeat;
+  display: flex; flex-direction: column; justify-content: center;
+}
+.first-head, .second-head, .third-head {
+  font-family: "Trebuchet MS", Arial, sans-serif; color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.85); margin: 4px 0;
+}
+.first-head { font-size: clamp(1.5rem, 5vw, 2.5rem); }
+.second-head { font-size: clamp(1rem, 3vw, 1.25rem); }
+.third-head { font-size: clamp(.9rem, 2.5vw, 1.1rem); }
